@@ -1,0 +1,214 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "/home/zd4090/BT/test001/BTSourceCode_4_0-build",
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-44e114f0b7f55def911b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/zd4090/BT/BTSourceCode_4_0",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "/home/zd4090/BT/test001/BTSourceCode_4_0-build/3rdparty/lexy",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-ba166330bfaf66f1edb5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/home/zd4090/BT/BTSourceCode_4_0/3rdparty/lexy"
+				},
+				{
+					"build" : "/home/zd4090/BT/test001/BTSourceCode_4_0-build/3rdparty/lexy/src",
+					"jsonFile" : "directory-b879627708e1febc527e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "/home/zd4090/BT/BTSourceCode_4_0/3rdparty/lexy/src",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "/home/zd4090/BT/test001/BTSourceCode_4_0-build/sample_nodes",
+					"jsonFile" : "directory-157cc02bdd6d44fe30ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/zd4090/BT/BTSourceCode_4_0/sample_nodes",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						4
+					],
+					"name" : "behaviortree_cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "lexy",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app-86720724dca53014206b.json",
+					"name" : "app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "behaviortree_cpp::@d401f586ac5e7a745a72",
+					"jsonFile" : "target-behaviortree_cpp-2470fa28bd100f96244c.json",
+					"name" : "behaviortree_cpp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bt_sample_nodes::@ff68c833953a46d8161d",
+					"jsonFile" : "target-bt_sample_nodes-e17dcc41894c6cba4f00.json",
+					"name" : "bt_sample_nodes",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "crossdoor_nodes_dyn::@ff68c833953a46d8161d",
+					"jsonFile" : "target-crossdoor_nodes_dyn-161f8d84f4c6bcd634e7.json",
+					"name" : "crossdoor_nodes_dyn",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "dummy_nodes_dyn::@ff68c833953a46d8161d",
+					"jsonFile" : "target-dummy_nodes_dyn-e9cbfaf3ceab68ae6853.json",
+					"name" : "dummy_nodes_dyn",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lexy_file::@da2a1ab75f4f920d12e7",
+					"jsonFile" : "target-lexy_file-a07f9621f35852d9852d.json",
+					"name" : "lexy_file",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "movebase_node_dyn::@ff68c833953a46d8161d",
+					"jsonFile" : "target-movebase_node_dyn-2b02642e662885999a71.json",
+					"name" : "movebase_node_dyn",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zd4090/BT/test001/build",
+		"source" : "/home/zd4090/BT/test001"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

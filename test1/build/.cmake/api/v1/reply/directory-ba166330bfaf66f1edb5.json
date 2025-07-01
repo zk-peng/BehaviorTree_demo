@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/home/zd4090/BT/test001/BTSourceCode_4_0-build/3rdparty/lexy",
+		"source" : "/home/zd4090/BT/BTSourceCode_4_0/3rdparty/lexy"
+	}
+}
