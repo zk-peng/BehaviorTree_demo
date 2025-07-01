@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/app.dir/app.cpp.o -o app  /home/zd4090/BT/test3/BTSourceCode_4_0-build/libbehaviortree_cpp.a -lstdc++fs -ldl /usr/lib/x86_64-linux-gnu/libzmq.so /home/zd4090/BT/test3/BTSourceCode_4_0-build/3rdparty/lexy/src/liblexy_file.a 
