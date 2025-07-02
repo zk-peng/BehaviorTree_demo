@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/app3.dir/test3/app_3.cpp.o -o app3  -lbehaviortree_cpp -lstdc++fs 

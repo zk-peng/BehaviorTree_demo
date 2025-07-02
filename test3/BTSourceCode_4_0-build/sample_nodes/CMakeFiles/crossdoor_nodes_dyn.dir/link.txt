@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -shared -Wl,-soname,libcrossdoor_nodes_dyn.so -o bin/libcrossdoor_nodes_dyn.so CMakeFiles/crossdoor_nodes_dyn.dir/crossdoor_nodes.cpp.o  ../libbehaviortree_cpp.a -ldl /usr/lib/x86_64-linux-gnu/libzmq.so ../3rdparty/lexy/src/liblexy_file.a 
