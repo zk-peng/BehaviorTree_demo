@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BT",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "app1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app1-Debug-abe9b07be0a8c25fd5ee.json",
+					"name" : "app1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app2-Debug-5a4b77e3bbbfdd2bd9a3.json",
+					"name" : "app2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app3-Debug-0f0bafc30f3b62957bbf.json",
+					"name" : "app3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app4-Debug-e1e56f7eb0059e05fad5.json",
+					"name" : "app4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app5-Debug-ff1b498c7ddb6a08dc29.json",
+					"name" : "app5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app6-Debug-c807719f364bbefc762b.json",
+					"name" : "app6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app7-Debug-3f91e95831748424c314.json",
+					"name" : "app7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app8-Debug-0dcfd6039cf063df89a4.json",
+					"name" : "app8",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zd4090/BT/build",
+		"source" : "/home/zd4090/BT"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

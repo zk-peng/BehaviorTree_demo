@@ -77,7 +77,8 @@
         "format": "cpp",
         "semaphore": "cpp",
         "bitset": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "ios": "cpp"
     },
     "cmake.sourceDirectory": "/home/zd4090/BT"
 }

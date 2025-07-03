@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/app1.dir/test1/app_1.cpp.o -o app1  -lbehaviortree_cpp -lstdc++fs 
+/usr/bin/c++ -g CMakeFiles/app1.dir/test1/app_1.cpp.o CMakeFiles/app1.dir/src/bt_move_base.cpp.o -o app1  -lbehaviortree_cpp -lstdc++fs 

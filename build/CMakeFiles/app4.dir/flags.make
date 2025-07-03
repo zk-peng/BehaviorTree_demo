@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/zd4090/BT/include
 
 CXX_FLAGS = -g -std=gnu++17   -Wno-unused-but-set-variable
 

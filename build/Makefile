@@ -168,6 +168,94 @@ app4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app4.dir/build.make CMakeFiles/app4.dir/build
 .PHONY : app4/fast
 
+#=============================================================================
+# Target rules for targets named app5
+
+# Build rule for target.
+app5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app5
+.PHONY : app5
+
+# fast build rule for target.
+app5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app5.dir/build.make CMakeFiles/app5.dir/build
+.PHONY : app5/fast
+
+#=============================================================================
+# Target rules for targets named app6
+
+# Build rule for target.
+app6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app6
+.PHONY : app6
+
+# fast build rule for target.
+app6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app6.dir/build.make CMakeFiles/app6.dir/build
+.PHONY : app6/fast
+
+#=============================================================================
+# Target rules for targets named app7
+
+# Build rule for target.
+app7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app7
+.PHONY : app7
+
+# fast build rule for target.
+app7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app7.dir/build.make CMakeFiles/app7.dir/build
+.PHONY : app7/fast
+
+#=============================================================================
+# Target rules for targets named app8
+
+# Build rule for target.
+app8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app8
+.PHONY : app8
+
+# fast build rule for target.
+app8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app8.dir/build.make CMakeFiles/app8.dir/build
+.PHONY : app8/fast
+
+src/bt_move_base.o: src/bt_move_base.cpp.o
+.PHONY : src/bt_move_base.o
+
+# target to build an object file
+src/bt_move_base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/src/bt_move_base.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app4.dir/build.make CMakeFiles/app4.dir/src/bt_move_base.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app6.dir/build.make CMakeFiles/app6.dir/src/bt_move_base.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app7.dir/build.make CMakeFiles/app7.dir/src/bt_move_base.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app8.dir/build.make CMakeFiles/app8.dir/src/bt_move_base.cpp.o
+.PHONY : src/bt_move_base.cpp.o
+
+src/bt_move_base.i: src/bt_move_base.cpp.i
+.PHONY : src/bt_move_base.i
+
+# target to preprocess a source file
+src/bt_move_base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/src/bt_move_base.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app4.dir/build.make CMakeFiles/app4.dir/src/bt_move_base.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app6.dir/build.make CMakeFiles/app6.dir/src/bt_move_base.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app7.dir/build.make CMakeFiles/app7.dir/src/bt_move_base.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app8.dir/build.make CMakeFiles/app8.dir/src/bt_move_base.cpp.i
+.PHONY : src/bt_move_base.cpp.i
+
+src/bt_move_base.s: src/bt_move_base.cpp.s
+.PHONY : src/bt_move_base.s
+
+# target to generate assembly for a file
+src/bt_move_base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/src/bt_move_base.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app4.dir/build.make CMakeFiles/app4.dir/src/bt_move_base.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app6.dir/build.make CMakeFiles/app6.dir/src/bt_move_base.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app7.dir/build.make CMakeFiles/app7.dir/src/bt_move_base.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app8.dir/build.make CMakeFiles/app8.dir/src/bt_move_base.cpp.s
+.PHONY : src/bt_move_base.cpp.s
+
 test1/app_1.o: test1/app_1.cpp.o
 .PHONY : test1/app_1.o
 
@@ -264,6 +352,102 @@ test4/app_4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app4.dir/build.make CMakeFiles/app4.dir/test4/app_4.cpp.s
 .PHONY : test4/app_4.cpp.s
 
+test5/app_5.o: test5/app_5.cpp.o
+.PHONY : test5/app_5.o
+
+# target to build an object file
+test5/app_5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app5.dir/build.make CMakeFiles/app5.dir/test5/app_5.cpp.o
+.PHONY : test5/app_5.cpp.o
+
+test5/app_5.i: test5/app_5.cpp.i
+.PHONY : test5/app_5.i
+
+# target to preprocess a source file
+test5/app_5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app5.dir/build.make CMakeFiles/app5.dir/test5/app_5.cpp.i
+.PHONY : test5/app_5.cpp.i
+
+test5/app_5.s: test5/app_5.cpp.s
+.PHONY : test5/app_5.s
+
+# target to generate assembly for a file
+test5/app_5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app5.dir/build.make CMakeFiles/app5.dir/test5/app_5.cpp.s
+.PHONY : test5/app_5.cpp.s
+
+test6/app_6.o: test6/app_6.cpp.o
+.PHONY : test6/app_6.o
+
+# target to build an object file
+test6/app_6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app6.dir/build.make CMakeFiles/app6.dir/test6/app_6.cpp.o
+.PHONY : test6/app_6.cpp.o
+
+test6/app_6.i: test6/app_6.cpp.i
+.PHONY : test6/app_6.i
+
+# target to preprocess a source file
+test6/app_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app6.dir/build.make CMakeFiles/app6.dir/test6/app_6.cpp.i
+.PHONY : test6/app_6.cpp.i
+
+test6/app_6.s: test6/app_6.cpp.s
+.PHONY : test6/app_6.s
+
+# target to generate assembly for a file
+test6/app_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app6.dir/build.make CMakeFiles/app6.dir/test6/app_6.cpp.s
+.PHONY : test6/app_6.cpp.s
+
+test7/app_7.o: test7/app_7.cpp.o
+.PHONY : test7/app_7.o
+
+# target to build an object file
+test7/app_7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app7.dir/build.make CMakeFiles/app7.dir/test7/app_7.cpp.o
+.PHONY : test7/app_7.cpp.o
+
+test7/app_7.i: test7/app_7.cpp.i
+.PHONY : test7/app_7.i
+
+# target to preprocess a source file
+test7/app_7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app7.dir/build.make CMakeFiles/app7.dir/test7/app_7.cpp.i
+.PHONY : test7/app_7.cpp.i
+
+test7/app_7.s: test7/app_7.cpp.s
+.PHONY : test7/app_7.s
+
+# target to generate assembly for a file
+test7/app_7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app7.dir/build.make CMakeFiles/app7.dir/test7/app_7.cpp.s
+.PHONY : test7/app_7.cpp.s
+
+test8/app_8.o: test8/app_8.cpp.o
+.PHONY : test8/app_8.o
+
+# target to build an object file
+test8/app_8.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app8.dir/build.make CMakeFiles/app8.dir/test8/app_8.cpp.o
+.PHONY : test8/app_8.cpp.o
+
+test8/app_8.i: test8/app_8.cpp.i
+.PHONY : test8/app_8.i
+
+# target to preprocess a source file
+test8/app_8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app8.dir/build.make CMakeFiles/app8.dir/test8/app_8.cpp.i
+.PHONY : test8/app_8.cpp.i
+
+test8/app_8.s: test8/app_8.cpp.s
+.PHONY : test8/app_8.s
+
+# target to generate assembly for a file
+test8/app_8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app8.dir/build.make CMakeFiles/app8.dir/test8/app_8.cpp.s
+.PHONY : test8/app_8.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -276,6 +460,13 @@ help:
 	@echo "... app2"
 	@echo "... app3"
 	@echo "... app4"
+	@echo "... app5"
+	@echo "... app6"
+	@echo "... app7"
+	@echo "... app8"
+	@echo "... src/bt_move_base.o"
+	@echo "... src/bt_move_base.i"
+	@echo "... src/bt_move_base.s"
 	@echo "... test1/app_1.o"
 	@echo "... test1/app_1.i"
 	@echo "... test1/app_1.s"
@@ -288,6 +479,18 @@ help:
 	@echo "... test4/app_4.o"
 	@echo "... test4/app_4.i"
 	@echo "... test4/app_4.s"
+	@echo "... test5/app_5.o"
+	@echo "... test5/app_5.i"
+	@echo "... test5/app_5.s"
+	@echo "... test6/app_6.o"
+	@echo "... test6/app_6.i"
+	@echo "... test6/app_6.s"
+	@echo "... test7/app_7.o"
+	@echo "... test7/app_7.i"
+	@echo "... test7/app_7.s"
+	@echo "... test8/app_8.o"
+	@echo "... test8/app_8.i"
+	@echo "... test8/app_8.s"
 .PHONY : help
 
 

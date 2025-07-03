@@ -1,5 +1,4 @@
 #include "behaviortree_cpp/bt_factory.h"
-
 using namespace BT;
 
 // 自定义节点: 说话动作
@@ -41,6 +40,23 @@ public:
   }
 };
 
+static const char* xml_text = R"( 
+<root BTCPP_format="4" >
+    <BehaviorTree ID="MainTree">
+    <Sequence>
+        <!-- 静态输入 -->
+        <SaySomething message="hello"/>
+        
+        <!-- 输出到黑板 the_answer：公共的部分 -->
+        <ThinkWhatToSay text="{the_answer}"/>
+        
+        <!-- 从黑板 the_answer 读取 -->
+        <SaySomething message="{the_answer}"/>
+    </Sequence>
+    </BehaviorTree>
+</root>
+)";
+
 int main() {
   BehaviorTreeFactory factory;
   
@@ -49,7 +65,7 @@ int main() {
   factory.registerNodeType<ThinkWhatToSay>("ThinkWhatToSay");
   
   // 从XML创建树
-  auto tree = factory.createTreeFromFile("/home/zd4090/BT/test2/demo.xml");
+  auto tree = factory.createTreeFromText(xml_text);
   
   // 执行树
   tree.tickWhileRunning();

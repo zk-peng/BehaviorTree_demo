@@ -1,0 +1,11 @@
+<root BTCPP_format="4">
+    <include path="/home/zd4090/BT/test7/subtree_A.xml" />
+    <include path="/home/zd4090/BT/test7/subtree_B.xml" />
+    <BehaviorTree ID="MainTree">
+        <Sequence>
+            <SaySomething message="starting MainTree" />
+            <SubTree ID="SubTreeA" />
+            <SubTree ID="SubTreeB" />
+        </Sequence>
+    </BehaviorTree>
+</root>

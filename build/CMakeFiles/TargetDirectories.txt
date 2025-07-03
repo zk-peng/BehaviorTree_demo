@@ -2,5 +2,9 @@
 /home/zd4090/BT/build/CMakeFiles/app2.dir
 /home/zd4090/BT/build/CMakeFiles/app3.dir
 /home/zd4090/BT/build/CMakeFiles/app4.dir
+/home/zd4090/BT/build/CMakeFiles/app5.dir
+/home/zd4090/BT/build/CMakeFiles/app6.dir
+/home/zd4090/BT/build/CMakeFiles/app7.dir
+/home/zd4090/BT/build/CMakeFiles/app8.dir
 /home/zd4090/BT/build/CMakeFiles/edit_cache.dir
 /home/zd4090/BT/build/CMakeFiles/rebuild_cache.dir

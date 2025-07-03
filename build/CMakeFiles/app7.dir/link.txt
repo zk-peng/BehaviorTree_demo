@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/app7.dir/test7/app_7.cpp.o CMakeFiles/app7.dir/src/bt_move_base.cpp.o -o app7  -lbehaviortree_cpp -lstdc++fs 

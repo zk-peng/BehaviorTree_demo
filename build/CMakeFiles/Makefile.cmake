@@ -133,4 +133,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/app2.dir/DependInfo.cmake"
   "CMakeFiles/app3.dir/DependInfo.cmake"
   "CMakeFiles/app4.dir/DependInfo.cmake"
+  "CMakeFiles/app5.dir/DependInfo.cmake"
+  "CMakeFiles/app6.dir/DependInfo.cmake"
+  "CMakeFiles/app7.dir/DependInfo.cmake"
+  "CMakeFiles/app8.dir/DependInfo.cmake"
   )

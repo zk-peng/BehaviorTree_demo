@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/app1.dir/src/bt_move_base.cpp.o"
+  "CMakeFiles/app1.dir/src/bt_move_base.cpp.o.d"
   "CMakeFiles/app1.dir/test1/app_1.cpp.o"
   "CMakeFiles/app1.dir/test1/app_1.cpp.o.d"
   "app1"

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/app6.dir/test6/app_6.cpp.o CMakeFiles/app6.dir/src/bt_move_base.cpp.o -o app6  -lbehaviortree_cpp -lstdc++fs 
