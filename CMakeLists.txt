@@ -52,4 +52,19 @@ target_link_libraries(app7 stdc++fs)
 add_executable(app8 test8/app_8.cpp ${BT_MOVE_BASE_SRC})
 target_link_libraries(app8 behaviortree_cpp)
 target_link_libraries(app8 stdc++fs)
-
+# #test8_1
+# add_executable(app8_1 test8/app_8_1.cpp)
+# target_link_libraries(app8_1 behaviortree_cpp)
+# target_link_libraries(app8_1 stdc++fs)
+#test9
+add_executable(app9 test9/app_9.cpp)
+target_link_libraries(app9 behaviortree_cpp)
+target_link_libraries(app9 stdc++fs)
+#test10
+add_executable(app10 test10/app_10.cpp)
+target_link_libraries(app10 behaviortree_cpp)
+target_link_libraries(app10 stdc++fs)
+#test11
+add_executable(app11 test11/app_11.cpp)
+target_link_libraries(app11 behaviortree_cpp)
+target_link_libraries(app11 stdc++fs)

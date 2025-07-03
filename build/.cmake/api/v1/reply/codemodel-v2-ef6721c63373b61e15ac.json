@@ -22,7 +22,10 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10
 					]
 				}
 			],
@@ -44,7 +47,10 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10
 					]
 				}
 			],
@@ -55,6 +61,20 @@
 					"id" : "app1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-app1-Debug-abe9b07be0a8c25fd5ee.json",
 					"name" : "app1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app10-Debug-4f197fd4c81aeb1c8348.json",
+					"name" : "app10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app11-Debug-b631aafe5c6f6cfa94e5.json",
+					"name" : "app11",
 					"projectIndex" : 0
 				},
 				{
@@ -104,6 +124,13 @@
 					"id" : "app8::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-app8-Debug-0dcfd6039cf063df89a4.json",
 					"name" : "app8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app9-Debug-822d7a2d2c9b4533951b.json",
+					"name" : "app9",
 					"projectIndex" : 0
 				}
 			]

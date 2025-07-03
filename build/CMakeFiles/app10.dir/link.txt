@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/app10.dir/test10/app_10.cpp.o -o app10  -lbehaviortree_cpp -lstdc++fs 

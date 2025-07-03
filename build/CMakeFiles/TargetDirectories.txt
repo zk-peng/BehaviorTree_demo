@@ -6,5 +6,8 @@
 /home/zd4090/BT/build/CMakeFiles/app6.dir
 /home/zd4090/BT/build/CMakeFiles/app7.dir
 /home/zd4090/BT/build/CMakeFiles/app8.dir
+/home/zd4090/BT/build/CMakeFiles/app9.dir
+/home/zd4090/BT/build/CMakeFiles/app10.dir
+/home/zd4090/BT/build/CMakeFiles/app11.dir
 /home/zd4090/BT/build/CMakeFiles/edit_cache.dir
 /home/zd4090/BT/build/CMakeFiles/rebuild_cache.dir

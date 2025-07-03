@@ -80,5 +80,6 @@
         "regex": "cpp",
         "ios": "cpp"
     },
-    "cmake.sourceDirectory": "/home/zd4090/BT"
+    "cmake.sourceDirectory": "/home/zd4090/BT",
+    "C_Cpp.errorSquiggles": "disabled"
 }

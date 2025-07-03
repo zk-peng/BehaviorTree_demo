@@ -220,6 +220,45 @@ app8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app8.dir/build.make CMakeFiles/app8.dir/build
 .PHONY : app8/fast
 
+#=============================================================================
+# Target rules for targets named app9
+
+# Build rule for target.
+app9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app9
+.PHONY : app9
+
+# fast build rule for target.
+app9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app9.dir/build.make CMakeFiles/app9.dir/build
+.PHONY : app9/fast
+
+#=============================================================================
+# Target rules for targets named app10
+
+# Build rule for target.
+app10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app10
+.PHONY : app10
+
+# fast build rule for target.
+app10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app10.dir/build.make CMakeFiles/app10.dir/build
+.PHONY : app10/fast
+
+#=============================================================================
+# Target rules for targets named app11
+
+# Build rule for target.
+app11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app11
+.PHONY : app11
+
+# fast build rule for target.
+app11/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app11.dir/build.make CMakeFiles/app11.dir/build
+.PHONY : app11/fast
+
 src/bt_move_base.o: src/bt_move_base.cpp.o
 .PHONY : src/bt_move_base.o
 
@@ -279,6 +318,54 @@ test1/app_1.s: test1/app_1.cpp.s
 test1/app_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/test1/app_1.cpp.s
 .PHONY : test1/app_1.cpp.s
+
+test10/app_10.o: test10/app_10.cpp.o
+.PHONY : test10/app_10.o
+
+# target to build an object file
+test10/app_10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app10.dir/build.make CMakeFiles/app10.dir/test10/app_10.cpp.o
+.PHONY : test10/app_10.cpp.o
+
+test10/app_10.i: test10/app_10.cpp.i
+.PHONY : test10/app_10.i
+
+# target to preprocess a source file
+test10/app_10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app10.dir/build.make CMakeFiles/app10.dir/test10/app_10.cpp.i
+.PHONY : test10/app_10.cpp.i
+
+test10/app_10.s: test10/app_10.cpp.s
+.PHONY : test10/app_10.s
+
+# target to generate assembly for a file
+test10/app_10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app10.dir/build.make CMakeFiles/app10.dir/test10/app_10.cpp.s
+.PHONY : test10/app_10.cpp.s
+
+test11/app_11.o: test11/app_11.cpp.o
+.PHONY : test11/app_11.o
+
+# target to build an object file
+test11/app_11.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app11.dir/build.make CMakeFiles/app11.dir/test11/app_11.cpp.o
+.PHONY : test11/app_11.cpp.o
+
+test11/app_11.i: test11/app_11.cpp.i
+.PHONY : test11/app_11.i
+
+# target to preprocess a source file
+test11/app_11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app11.dir/build.make CMakeFiles/app11.dir/test11/app_11.cpp.i
+.PHONY : test11/app_11.cpp.i
+
+test11/app_11.s: test11/app_11.cpp.s
+.PHONY : test11/app_11.s
+
+# target to generate assembly for a file
+test11/app_11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app11.dir/build.make CMakeFiles/app11.dir/test11/app_11.cpp.s
+.PHONY : test11/app_11.cpp.s
 
 test2/app_2.o: test2/app_2.cpp.o
 .PHONY : test2/app_2.o
@@ -448,6 +535,30 @@ test8/app_8.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app8.dir/build.make CMakeFiles/app8.dir/test8/app_8.cpp.s
 .PHONY : test8/app_8.cpp.s
 
+test9/app_9.o: test9/app_9.cpp.o
+.PHONY : test9/app_9.o
+
+# target to build an object file
+test9/app_9.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app9.dir/build.make CMakeFiles/app9.dir/test9/app_9.cpp.o
+.PHONY : test9/app_9.cpp.o
+
+test9/app_9.i: test9/app_9.cpp.i
+.PHONY : test9/app_9.i
+
+# target to preprocess a source file
+test9/app_9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app9.dir/build.make CMakeFiles/app9.dir/test9/app_9.cpp.i
+.PHONY : test9/app_9.cpp.i
+
+test9/app_9.s: test9/app_9.cpp.s
+.PHONY : test9/app_9.s
+
+# target to generate assembly for a file
+test9/app_9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app9.dir/build.make CMakeFiles/app9.dir/test9/app_9.cpp.s
+.PHONY : test9/app_9.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -457,6 +568,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... app1"
+	@echo "... app10"
+	@echo "... app11"
 	@echo "... app2"
 	@echo "... app3"
 	@echo "... app4"
@@ -464,12 +577,19 @@ help:
 	@echo "... app6"
 	@echo "... app7"
 	@echo "... app8"
+	@echo "... app9"
 	@echo "... src/bt_move_base.o"
 	@echo "... src/bt_move_base.i"
 	@echo "... src/bt_move_base.s"
 	@echo "... test1/app_1.o"
 	@echo "... test1/app_1.i"
 	@echo "... test1/app_1.s"
+	@echo "... test10/app_10.o"
+	@echo "... test10/app_10.i"
+	@echo "... test10/app_10.s"
+	@echo "... test11/app_11.o"
+	@echo "... test11/app_11.i"
+	@echo "... test11/app_11.s"
 	@echo "... test2/app_2.o"
 	@echo "... test2/app_2.i"
 	@echo "... test2/app_2.s"
@@ -491,6 +611,9 @@ help:
 	@echo "... test8/app_8.o"
 	@echo "... test8/app_8.i"
 	@echo "... test8/app_8.s"
+	@echo "... test9/app_9.o"
+	@echo "... test9/app_9.i"
+	@echo "... test9/app_9.s"
 .PHONY : help
 
 
